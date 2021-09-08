@@ -1,10 +1,10 @@
 import React from 'react';
-import {Header} from './layout'
+import {TopOfPage} from './layout'
 
 function App(){
     return(
         <>
-        <Header />
+        <TopOfPage />
         </>
     );
 };
