@@ -1,9 +1,14 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const TopOfPage = () => {
     return(
         <>
-        <h1>Header</h1>
+        <nav>
+            <li><NavLink exact to='/'>Home</NavLink> </li>
+            <li><NavLink to= '/main'>Main</NavLink> </li>
+            <li><NavLink to='/about'>About Us</NavLink></li>
+        </nav>
         </>
     )
 }
